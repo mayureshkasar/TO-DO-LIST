@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -19,7 +20,8 @@ body {
 h1 {
   font-weight: 400;
   color: deeppink;
-  margin-left: 600px;
+  width: 500px;
+  margin: 0 auto;
 }
 #wrapper input,
 button {
@@ -30,7 +32,7 @@ button {
 }
 #inputField {
   border-radius: 7px 0px 0px 7px;
-  width: 440px;
+  width: 460px;
 }
 #addButton {
   border-radius: 0px 7px 7px 0px;
@@ -44,17 +46,17 @@ button {
 #toDoContainer {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 300px;
-  margin: 0px 20px;
+  width: 500px;
+  margin: 0 auto;
 }
 #toDoContainer p {
   word-wrap: break-word;
-  margin-left: 500px;
+  width: 440px;
   padding: 10px;
-  width: 380px;
+  margin: 0 auto;
   font-size: 20px;
   border-radius: 7px 0px 0px 7px;
-  text-align: justify;
+  text-align: left;
   background-color: white;
   border-bottom: 2px solid cyan;
 }
